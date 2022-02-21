@@ -1,4 +1,9 @@
-.center {
-  text-align: center;
-  list-style-position: inside;
+#Project{
+    color:  white;
+    margin: auto;
 }
+
+.container-fluid{
+    text-align: center;
+}
+
