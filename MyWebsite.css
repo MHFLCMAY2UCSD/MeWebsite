@@ -1,10 +1,13 @@
 #Project{
-    color:  white;
-    margin: auto;
+    color:  black;
 }
 
 #quote{
     text-align: center;
+}
+
+.summaryProject{
+    text-decoration: underline;
 }
 
 body{
