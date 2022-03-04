@@ -1,3 +1,4 @@
+/* IDs */
 #Project{
     color:  black;
     margin: auto;
@@ -7,6 +8,7 @@
     text-align: center;
 }
 
+/* Classes */
 .summaryProject{
     padding-top: 15px;
     text-decoration: underline;
@@ -24,9 +26,25 @@ img{
 
 img:hover{
     box-shadow: 5px 5px lightgrey;
+    transition: .25s;
+    transform:  scale(1.005);
 }
 
 body{
     background-image:  url("Logo.png");
+}
+
+
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
