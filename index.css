@@ -41,17 +41,3 @@ body{
     background-image:  url("backgroundPic.png");
 }
 
-
-/* Style the navbar */
-#navbar {
-  overflow: hidden;
-  background-color: rgba(255, 255, 255, 1);
-}
-
-/* The sticky class is added to the navbar with JS when it reaches its scroll position */
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
