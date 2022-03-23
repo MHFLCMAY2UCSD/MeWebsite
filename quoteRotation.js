@@ -1,5 +1,3 @@
-console.log("Connected!");
-
 //Constant changing header
 var quotes = [
 			 "The future is now, old man!", 
