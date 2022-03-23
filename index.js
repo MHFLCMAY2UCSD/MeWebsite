@@ -3,9 +3,9 @@ console.log("Connected!");
 //Constant changing header
 var quotes = [
 			 "The future is now, old man!", 
-			 "The way to get started is to quit talking and begin doing.",
+			 "Eat, Sleep, Repeat.",
 			 "One does not simply walk in to...",
-			 "Get in loser we're going to shopping!"
+			 "Get in loser we're going shopping!"
 			 ];
 
 var authors = [
@@ -41,8 +41,6 @@ function sleep(ms) {
 //Constant Rotation
 async function polychange() {
     while(true){
-    	console.log(x.textContent);
-		console.log(y.textContent);
 		var dDip = randInt;
 		randInt = getRandomInt(0, length);
 
@@ -55,8 +53,7 @@ async function polychange() {
 		x.textContent = quotes[randInt];
 		y.textContent = "-" + authors[randInt];
 
-		sleepTime = getRandomInt(3, 7);
-		console.log(sleepTime * 1000);
+		sleepTime = getRandomInt(2, 4);
         await sleep(sleepTime * 1000);
 
     }
