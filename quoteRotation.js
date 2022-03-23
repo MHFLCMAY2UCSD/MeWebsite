@@ -3,7 +3,7 @@ console.log("Connected!");
 //Constant changing header
 var quotes = [
 			 "The future is now, old man!", 
-			 "Eat, Sleep, Repeat.",
+			 "The Mouse Always Wins.",
 			 "One does not simply walk in to...",
 			 "Get in loser we're going shopping!"
 			 ];
@@ -55,12 +55,8 @@ async function polychange() {
 
 		sleepTime = getRandomInt(2, 4);
         await sleep(sleepTime * 1000);
-
     }
 }
 
-function main(){
-	polychange();
-}
+polychange();
 
-main();
