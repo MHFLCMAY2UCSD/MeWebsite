@@ -1,39 +1,39 @@
 /* IDs */
-#Project{
-    color:  black;
-    margin: auto;
+#Project {
+  color: black;
+  margin: auto;
 }
 
 /* Classes */
-.summaryProject{
-    padding-top: 15px;
-    text-decoration: underline;
+.summaryProject {
+  padding-top: 15px;
+  text-decoration: underline;
 }
 
-.textcenter{
-    text-align: center;
+.textcenter {
+  text-align: center;
 }
 
-td{
-    padding: 10px;
+td {
+  padding: 10px;
 }
 
-img[class = "projects"]{ /* Class sector to exclude one of the other img tag */
-    /* Keep img same size */
-    width: 750px;
-    height: 300px;
-    border-radius: 10%;
-    max-width: 100%;
-    max-height: 100%;
+img[class="projects"] {
+  /* Class sector to exclude one of the other img tag */
+  /* Keep img same size */
+  width: 750px;
+  height: 300px;
+  border-radius: 10%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
-img[class = "projects"]:hover{
-    box-shadow: 5px 5px lightgrey;
-    transition: .25s;
-    transform:  scale(1.005);
+img[class="projects"]:hover {
+  box-shadow: 5px 5px lightgrey;
+  transition: 0.25s;
+  transform: scale(1.005);
 }
 
-body{
-    background-image:  url("backgroundPic.png");
+body {
+  background-image: url("images/backgroundPic.png");
 }
-
