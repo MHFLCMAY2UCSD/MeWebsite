@@ -2,7 +2,7 @@ div[class="col-sm-6 summary"] {
   animation: fade-in-down-up 1.5s ease-out forwards;
 }
 
-img[class="STCode"] {
+img[class="Code"] {
   width: 800px;
   height: 400px;
   border-radius: 5%;
@@ -33,6 +33,56 @@ img[class="STCode"] {
   }
 }
 
+/* Button animation */
+button{
+  margin: 1em;
+}
+
+.btn{
+  background-color: var(--background-color);
+  color: #222;
+  padding: .5em 1em;
+  border: none;
+  outline: none;
+  position: relative;
+  cursor: pointer;
+
+  --background-color: #E3E3E3;
+  --accent-color: #222;
+}
+
+.btn.btn-background-slide::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  background-color: var(--accent-color);
+
+  transition: transform 300ms ease-in-out;
+  transform: scaleX(0);
+  transform-origin: left;
+
+}
+
+.btn.btn-background-slide:hover::before,
+.btn.btn-background-slide:focus::before{
+  transform: scale(1);
+}
+
+.btn.btn-background-slide:hover,
+.btn.btn-background-slide:focus{
+  color: white;
+}
+
+.btn.btn-background-slide{
+  transition: color 300ms ease-in-out;
+  z-index: 1;
+}
+
 body {
   background-image: url("images/backgroundPic.png");
 }
+
