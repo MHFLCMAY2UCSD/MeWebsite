@@ -1,4 +1,6 @@
 //Constant changing header
+console.log("Hello World");
+
 var quotes = [
 			 "The future is now, old man!", 
 			 "The Mouse Always Wins.",
